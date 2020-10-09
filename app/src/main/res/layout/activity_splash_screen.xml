@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/background_light"
+    android:background="#FFFFFF"
+    style="@style/Theme.AppCompat.DayNight.NoActionBar"
 
     tools:context=".SplashScreenActivity">
 
@@ -18,6 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.434"
-        tools:srcCompat="@drawable/pop" />
+        android:src="@drawable/pop" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
