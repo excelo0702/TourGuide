@@ -13,7 +13,6 @@ public class SplashScreenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
-        getSupportActionBar().hide();
         LogoLauncher logoLauncher= new LogoLauncher();
         logoLauncher.start();
     }
@@ -25,7 +24,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            Intent intent = new Intent(SplashScreenActivity.this, MainActivity.class);
+            Intent intent = new Intent(SplashScreenActivity.this, HomeActivity.class);
             startActivity(intent);
             SplashScreenActivity.this.finish();
         }
