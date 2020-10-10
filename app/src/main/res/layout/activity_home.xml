@@ -19,9 +19,9 @@
 
         app:menu="@menu/bottom_nav_menu" />
 
-    <view
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        ></view>
+        android:id="@+id/home_activity_fragment"></FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="#FFFFFF"
     style="@style/Theme.AppCompat.DayNight.NoActionBar"
-
     tools:context=".SplashScreenActivity">
 
     <ImageView
